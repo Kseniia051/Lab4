@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Электронные гаджеты на Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<!-- Навбар -->
+<nav class="bg-white shadow">
+  <div class="max-w-7xl mx-auto px-4">
+    <div class="flex justify-between items-center h-16">
+      <div class="text-xl font-bold">Gadget Store</div>
+      <div class="space-x-4">
+        <a href="#" class="text-gray-800 hover:text-blue-600">Главная</a>
+        <a href="#" class="text-gray-800 hover:text-blue-600">О нас</a>
+        <a href="#" class="text-gray-800 hover:text-blue-600">Контакты</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Секция с карточками преимуществ -->
+<section class="max-w-7xl mx-auto py-12 px-4">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    
+    <!-- Ноутбук -->
+    <div class="flex">
+      <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col flex-grow">
+        <img src="https://images.unsplash.com/photo-1593642532973-d31b6557fa68?auto=format&fit=crop&w=500&q=60" alt="Ноутбук" class="w-full">
+        <div class="p-6 flex flex-col flex-grow">
+          <h5 class="text-lg font-semibold mb-2">Ноутбук UltraBook X</h5>
+          <p class="text-gray-700 mb-4 flex-grow">Лёгкий и мощный ноутбук для работы и игр.</p>
+          <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 text-center mt-auto">Подробнее</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Смартфон -->
+    <div class="flex">
+      <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col flex-grow">
+        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=500&q=60" alt="Смартфон" class="w-full">
+        <div class="p-6 flex flex-col flex-grow">
+          <h5 class="text-lg font-semibold mb-2">Смартфон Galaxy S</h5>
+          <p class="text-gray-700 mb-4 flex-grow">Современный смартфон с ярким дисплеем и быстрой камерой.</p>
+          <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 text-center mt-auto">Подробнее</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Смарт-часы -->
+    <div class="flex">
+      <div class="bg-white rounded-lg shadow-md overflow-hidden flex flex-col flex-grow">
+        <img src="smartc.jpg" alt="Смарт-часы" class="w-full">
+        <div class="p-6 flex flex-col flex-grow">
+          <h5 class="text-lg font-semibold mb-2">Смарт-часы TimeWatch</h5>
+          <p class="text-gray-700 mb-4 flex-grow">Умные часы с мониторингом здоровья, уведомлениями и долгим временем работы.</p>
+          <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 text-center mt-auto">Подробнее</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Футер -->
+<footer class="bg-white shadow mt-12">
+  <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center text-gray-700">
+    <span>&copy; 2025 Gadget Store. Все права защищены.</span>
+    <div class="space-x-4">
+      <a href="#" class="hover:text-blue-600">Политика конфиденциальности</a>
+      <a href="#" class="hover:text-blue-600">Контакты</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
